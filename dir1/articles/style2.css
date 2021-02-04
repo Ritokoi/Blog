@@ -1,0 +1,44 @@
+body{
+    background: rgb(15,20,35);
+}
+
+article{
+    color: aliceblue;
+    width: 60%;
+    top: 100%;
+    left: 23%;
+    font-size: larger;
+    position: absolute;  
+}
+
+.block{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    width: 40%;
+}
+
+.container{
+    text-align: center;
+    left: 1%;
+    position: relative;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;    
+}
+
+#Pics{
+    width: 100%;
+}
+
+a{
+    color: rgb(100, 200, 247);
+}
+
+a:focus{
+    color: aliceblue;
+}
+
+audio{
+    position: relative;
+    left: 22%; 
+}

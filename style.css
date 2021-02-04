@@ -1,0 +1,22 @@
+h1{
+    text-align:center;
+    color: aliceblue;
+}
+
+body{
+    background: rgb(15,20,35);
+}
+
+.container{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+a{
+    color: rgb(100, 200, 247);
+}
+
+a:focus{
+    color: aliceblue;
+}
