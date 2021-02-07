@@ -30,6 +30,12 @@ article{
     width: 100%;
 }
 
+#Pics1{
+    position: absolute;
+    left: -45%;
+    width: 190%;
+}
+
 a{
     color: rgb(100, 200, 247);
 }
