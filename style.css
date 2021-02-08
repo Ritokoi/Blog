@@ -20,3 +20,20 @@ a{
 a:focus{
     color: aliceblue;
 }
+
+article{
+    color: aliceblue;
+    width: 100%;
+    top: 100%;
+    left: 8%;
+    font-size: x-large;
+    position: relative;  
+    font-family: sans-serif;
+}
+
+.block{
+    position: relative;
+    top: 15%;
+    left: 30%;
+    width: 40%;
+}
