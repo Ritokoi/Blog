@@ -1,0 +1,122 @@
+@font-face{
+    font-family:"uwu";
+    src:url("../fonts/New_Wild_Words.TTF");
+}
+
+#uwu{
+    font-family: uwu;
+    text-align: center;
+}
+
+body{
+    background: rgb(250, 230, 230);
+    display: flex;
+    animation: cbg 4s;
+    -moz-animation: cbg 4s;
+    -webkit-animation: cbg 4s; 
+    -o-animation: cbg 4s; 
+}
+
+.text{
+    animation: transition 2s;
+    -moz-animation: transition 2s;
+    -webkit-animation: transition 2s; 
+    -o-animation: transition 2s; 
+}
+
+@keyframes transition {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes transition { 
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes transition { 
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes transition { 
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+article{
+    color: rgb(255, 87, 87);
+    width: 80%;
+    top: 900%;
+    left: 15%;
+    font-size:larger;
+    position: absolute;  
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+}
+
+.block{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    width: 40%;
+}
+
+.container{
+    left: 40%;
+    position: relative;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;    
+}
+
+#Flower{
+    position: absolute;
+    left: 40.5%;
+    width: 150px;
+    top: 350%;
+    transition: all ease-in-out 0.3s;
+}
+
+a{
+    color: rgb(255, 103, 103);
+}
+
+a:focus{
+    color: rgb(126, 76, 57);
+}
+
+audio{
+    position: absolute;
+    left: 43.5%; 
+    top: 110%;
+    margin-left: -100px;
+}
+
+#Flower:hover, #Flower:focus {
+    transform: scale(5);
+    transition-duration: 4s;
+}
+
+#uwu:hover, #uwu:focus {
+    animation: shake 1s;
+}
+
+@keyframes shake {
+    25%   { transform: translateY(10px); }
+    50%  { transform: translateY(-10px); }
+    75% { transform: translateY(10px); }
+    100% { transform: translateY(0px);}
+}
