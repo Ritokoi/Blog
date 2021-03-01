@@ -1,33 +1,36 @@
+
 body{
     background: rgb(15,20,35);
 }
 
 article{
     color: aliceblue;
-    width: 60%;
+    max-width: 68%;
     top: 100%;
     left: 23%;
     font-size: larger;
-    position: absolute;  
+    position: relative;  
 }
 
 .block{
-    position: absolute;
+    position:relative;
     top: 15%;
-    left: 30%;
-    width: 40%;
+    left: 16.4%;
+    width: 60%;
 }
 
 .container{
     text-align: center;
-    left: 1%;
+    left: 6%;
     position: relative;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;    
 }
 
 #Pics{
-    width: 100%;
+    position: relative;
+    left: 0;
+    width: 100%
 }
 
 #Pics1{
@@ -47,4 +50,12 @@ a:focus{
 audio{
     position: relative;
     left: 22%; 
+}
+
+@media screen and (max-width: 530px){
+    .block{
+    left: 0;
+    width: 97%;
+    height: 97%;
+    }
 }

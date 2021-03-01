@@ -18,9 +18,9 @@ body{
 #articles{
     position: absolute;
     top: 5%;
-    left: 32%;
+    left: 30%;
     font-size: larger;
-    width: 40%;
+    width: 60%;
 }
 
 a{
