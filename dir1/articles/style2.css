@@ -39,6 +39,23 @@ article{
     width: 190%;
 }
 
+#Sprite1{
+    position:absolute;
+    width: 100%;
+    left:-30%;     
+}
+
+#Sprite2{
+    position:absolute;
+    width: 100%;
+    top: 10%;
+    left: 24%;
+}
+
+.imagecontainer{
+    height: 50%;
+}
+
 a{
     color: rgb(100, 200, 247);
 }
